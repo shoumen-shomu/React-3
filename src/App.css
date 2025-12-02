@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+  --font-pap: "Paprika", system-ui;
+}
