@@ -1,3 +1,4 @@
+
 import Container from "../Container";
 import Image from "../Image";
 import common from "../../assets/commonelement.png";
@@ -11,9 +12,9 @@ import Subheading from "../Subheading";
 import Button from "../Button";
 import Flex from "../Flex";
 
-const Portfolio = () => {
+const Work = () => {
   return (
-        <div className="py-[90px]">
+    <div className="py-[90px]">
       <Container>
         <Image className={"mx-auto"} imgSrc={common} />
         <Subheading className={"pt-4 pb-[52px] text-center"} text={"Work Showcase"}/> 
@@ -38,7 +39,7 @@ const Portfolio = () => {
        </div> 
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Work;

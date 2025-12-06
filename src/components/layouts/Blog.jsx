@@ -1,3 +1,4 @@
+import React from "react";
 import Container from "../Container";
 import Image from "../Image";
 import blogimg from "../../assets/commonelement.png";
@@ -7,7 +8,7 @@ import Flex from "../Flex";
 
 const Blog = () => {
   return (
-        <Container className={"py-[90px]"}>
+    <Container className={"py-[90px]"}>
       <div className="text-center pb-[50px]">
         <Image className={"mx-auto"} imgSrc={blogimg} />
         <Subheading
@@ -73,7 +74,7 @@ const Blog = () => {
         </div>
       </Flex>
     </Container>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;

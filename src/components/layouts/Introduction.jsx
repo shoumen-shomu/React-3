@@ -1,4 +1,4 @@
-
+import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
@@ -13,7 +13,7 @@ import widegde from "../../assets/widegde.png";
 import Subheading from "../Subheading";
 import Pragraph from "../Pragraph";
 
-const About = () => {
+const Introduction = () => {
   return (
     <Container className={"pt-[104px] pb-[80px]"}>
       <Flex className={"gap-x-20px"}>
@@ -43,7 +43,7 @@ const About = () => {
         </div>
       </Flex>
     </Container>
-  )
-}
+  );
+};
 
-export default About
+export default Introduction;

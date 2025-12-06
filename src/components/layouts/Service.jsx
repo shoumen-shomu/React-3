@@ -1,3 +1,4 @@
+
 import Container from "../Container";
 import Image from "../Image";
 import Commonelement from "../../assets/commonelement.png";
@@ -8,10 +9,9 @@ import Subheading from "../Subheading";
 import Pragraph from "../Pragraph";
 import Flex from "../Flex";
 
-
 const Service = () => {
   return (
-      <Container className={"pb-[95px]"}>
+    <Container className={"pb-[95px]"}>
       <div className="py-[70px]">
         <Image className={"mx-auto"} imgSrc={Commonelement} />
         <Subheading
@@ -77,7 +77,7 @@ const Service = () => {
         </Flex>
       </div>
     </Container>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
